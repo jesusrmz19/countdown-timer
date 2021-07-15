@@ -1,0 +1,15 @@
+.header {
+  width: calc(var(--mobile) - 50px);
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header--txt {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-align: center;
+  color: var(--white);
+}

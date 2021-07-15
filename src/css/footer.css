@@ -1,0 +1,15 @@
+.footer {
+  z-index: 100;
+  width: var(--mobile);
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer--socials {
+  display: flex;
+  padding: 0 80px;
+  justify-content: space-around;
+  list-style-type: none;
+}
