@@ -9,7 +9,15 @@
 
 .footer--socials {
   display: flex;
-  padding: 0 80px;
+  padding: 0 100px;
   justify-content: space-around;
   list-style-type: none;
+}
+
+.footer--socials_items svg path {
+  transition: all ease 0.2s;
+}
+
+.footer--socials_items:hover svg path {
+  fill: var(--softred);
 }

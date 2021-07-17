@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" type="text/css" href="./src/css/main.css" />
+    <script defer src="./src/js/script.js"></script>
     <title>Frontend Mentor | Launch countdown timer</title>
   </head>
   <body>
@@ -19,7 +20,36 @@
       <header class="header">
         <h1 class="header--txt">We're launching soon</h1>
       </header>
-      <main></main>
+      <main class="counter--container">
+        <div class="counter--elem">
+          <p class="number">
+            <span class="up">08</span>
+            <span class="down" data-value="08"></span>
+          </p>
+          <p class="label">days</p>
+        </div>
+        <div class="counter--elem">
+          <p class="number">
+            <span class="up">12</span>
+            <span class="down" data-value="12"></span>
+          </p>
+          <p class="label">hours</p>
+        </div>
+        <div class="counter--elem">
+          <p class="number">
+            <span class="up">24</span>
+            <span class="down" data-value="24"></span>
+          </p>
+          <p class="label">minutes</p>
+        </div>
+        <div class="counter--elem">
+          <p class="number">
+            <span class="up">56</span>
+            <span class="down" data-value="56"></span>
+          </p>
+          <p class="label">seconds</p>
+        </div>
+      </main>
       <footer class="footer">
         <ul class="footer--socials">
           <li class="footer--socials_items">
