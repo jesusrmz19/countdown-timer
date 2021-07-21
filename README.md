@@ -6,6 +6,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
 - [Author](#author)
@@ -19,9 +20,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - See a live countdown timer that ticks down every second (start the count at 14 days)
 
+### Screenshot
+
+![](./src/images/thumbnial.JPG)
+
 ### Links
 
-- Live Site URL: [counter.netlify.app](https://your-live-site-url.com)
+- Live Site URL: [https://launchcounter.netlify.app/](https://launchcounter.netlify.app/)
 
 ## My process
 

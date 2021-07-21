@@ -9,7 +9,6 @@
 }
 
 .counter--elem {
-  max-width: 100px;
   text-align: center;
 }
 
@@ -73,4 +72,39 @@
   color: var(--grayishblue);
   font-size: 10px;
   letter-spacing: 3px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .counter--container {
+    top: 280px;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .number {
+    width: 120px;
+    height: 105px;
+    font-size: 80px;
+  }
+  .up,
+  .down {
+    height: calc(105px / 2);
+  }
+  .up::after {
+    top: calc(100% - 8px);
+    left: -8px;
+    height: 16px;
+    width: 16px;
+    box-shadow: 120px 0 var(--verydarkblackblue);
+  }
+  .down::before {
+    top: -8px;
+    left: -8px;
+    height: 16px;
+    width: 16px;
+    box-shadow: 120px 0 var(--verydarkblackblue);
+  }
+  .down::after {
+    margin-top: -3.25rem;
+  }
 }
