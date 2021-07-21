@@ -6,6 +6,8 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
 - [Author](#author)
 
 ## Overview
@@ -19,8 +21,16 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [counter.netlify.app](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
 ## Author
 
