@@ -26,6 +26,7 @@ Users should be able to:
 
 ### Links
 
+- GitHub Repo URL: [https://github.com/jesusrmz19/countdown-timer](https://github.com/jesusrmz19/countdown-timer)
 - Live Site URL: [https://launchcounter.netlify.app/](https://launchcounter.netlify.app/)
 
 ## My process
